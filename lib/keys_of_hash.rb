@@ -4,3 +4,4 @@ class Hash
       return k
   end
 end
+end
