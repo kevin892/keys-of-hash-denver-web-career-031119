@@ -5,7 +5,7 @@ class Hash
     array = []
     self.each do |k, v|
       arguments.each do |x|
-        if i == value
+        if i == v
         array.push(k)
         end
       end
