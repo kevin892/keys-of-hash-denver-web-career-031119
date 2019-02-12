@@ -8,6 +8,6 @@ class Hash
         array.push(k) if x == v
         end
       end
-      array
-end
+    array
+  end
 end
