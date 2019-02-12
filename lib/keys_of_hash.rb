@@ -3,10 +3,10 @@ require "pry"
 class Hash
   def keys_of(*arguments)
     array = []
-    self.each do |key, value|
-      arguments.each do |i|
+    self.each do |k, v|
+      arguments.each do |x|
         if i == value
-        array.push(key)
+        array <= key
         end
       end
 
@@ -15,4 +15,4 @@ class Hash
     return array
   end
 
-end 
+end
