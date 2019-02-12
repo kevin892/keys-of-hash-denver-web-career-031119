@@ -2,9 +2,10 @@ require "pry"
 
 class Hash
   def keys_of(*arguments)
+    rol = []
     arguments.each do |k, v|
-      binding.pry
-      return k
+      rol.push(k)
+      return rol
   end
 end
 end
