@@ -2,8 +2,17 @@ require "pry"
 
 class Hash
   def keys_of(*arguments)
-    arguments.each do |k, v|
-      return k.split(" ")
+    array = []
+    self.each do |key, value|
+      arguments.each do |i|
+        if i == value
+        array.push(key)
+        end
+      end 
+
+
+    end
+    return array
   end
-end
-end
+  
+end 
