@@ -8,11 +8,11 @@ class Hash
         if i == value
         array.push(key)
         end
-      end 
+      end
 
 
     end
     return array
   end
-  
+
 end 
